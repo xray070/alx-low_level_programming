@@ -1,6 +1,6 @@
+#include <stdio.>
 /**
- * main - Print C program using printf
- *
+ * main -Print C program using printf
  * Return: 0
 */
 int main(void)
