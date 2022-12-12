@@ -2,29 +2,29 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - annoying
+ * main - Generate num
  * Return: 0
  */
 int main(void)
 {
 	int n;
-	int x;
+	int k;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = n % 10;
-
-	if (x > 5)
+	printf("last digit of %d is ", n);
+	k = n % 10;
+	if (k > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, x);
+		printf("%d and is greater than 5\n", k);
 	}
-	else if (x == 0)
+	else if ((k < 6) && (k < 0))
 	{
-		printf("last digit of %d is %d and is 0\n", n, x);
-	{
+		printf("%d and less than 6 and not 0\n", k);
+	}
 	else
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, x);
+		printf("%d and is 0\n", k);
 	}
 	return (0);
 }
