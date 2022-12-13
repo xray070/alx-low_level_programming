@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - alphabet in lowercase except e and q
+ * main - alphabet in lowercase except q and e
  * Return: 0
  */
 int main(void)
 {
-	char ch = 'a';
-
+	char = 'a';
 	while (ch <= 'z')
-
-		if ((ch != 'e') && (ch != 'q'))
+		ch++;
+	{
+		if ((ch != 'a') && (ch != 'q'))
 			putchar(ch);
-	ch++;
-	putchar('\n');
-	return (0);
+	}
+	putchar('\n')
+		return (0);
 }
