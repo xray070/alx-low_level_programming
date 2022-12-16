@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main - Pritall possiable combinmation of two diffierent digits
+ * main - Prints all possible combinations of two different digits,
+ *        in ascending order, separated by a comma followed by a space.
+ *
  * Return: 0
  */
 int main(void)
@@ -13,14 +15,15 @@ int main(void)
 		{
 			putchar((digit1 % 10) + '0');
 			putchar((digit2 % 10) + '0');
-		if (digit1 == 8 && digit2 == 9)
 
-		continue;
+		if (digit1 == 8 && digit2 == 9)
+			continue;
 
 		putchar (',');
 		putchar(' ');
 		}
 	}
 		putchar('\n');
+
 		return (0);
 }
