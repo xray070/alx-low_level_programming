@@ -1,1 +1,1 @@
-not giving up
+we never give up
